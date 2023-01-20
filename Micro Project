@@ -1,0 +1,283 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Movie</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+ 
+     <style>
+      body{
+        overflow-x: hidden;
+      }
+    </style>
+ 
+  </head>
+  <body>
+      <div class="" style="background-color: #070e1b;">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+  <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+      <img src="D:\Graphic Designs\Logos\My Ticket LOGO.png" alt="Logo" width="100" height="100" class="d-inline-block align-text-top">
+      </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">        
+      <ul class="navbar-nav">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="index.html" button type="button" class="btn btn-primary">Home</a>
+        &nbsp;&nbsp;&nbsp;
+        <a href="Pages/About.html" button type="button" class="btn btn-primary">About</a>
+        &nbsp;&nbsp;&nbsp;
+        <a href="Pages/Policy.html" button type="button" class="btn btn-primary">Policy</a>
+        &nbsp;&nbsp;&nbsp;
+        <a href="Pages/Contact.html" button type="button" class="btn btn-primary">Contact</a>
+        &nbsp;&nbsp;&nbsp;
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-primary" type="submit">Search</button>
+        </form>
+        &nbsp;&nbsp;&nbsp;
+        <div class="btn-group">
+          <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="fa-solid fa-user"></i>
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="Pages/Signin.html">Sign In</a></li>
+            <li><a class="dropdown-item" href="Pages/Signup.html">Sign Up</a></li>
+          </ul>
+        </div>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+
+<div id="carouselExampleCaptions" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+       <img src="D:\Download\Movies PHOTOS\the-avengers-avengers-endgame-ant-man-avengers-avengers-endgame-hd-wallpaper-preview.jpg" class="e-block w-100" alt="..." width="1000" height="500" >
+      <div class="carousel-caption d-none d-md-block">
+        <h5>First slide label</h5>
+        <p>Some representative placeholder content for the first slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="D:\Download\Movies PHOTOS\Master-Movie-Release-Posters-HD-05e1ab1.jpg" class="e-block w-100" alt="..." width="1000" height="700">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Second slide label</h5>
+        <p>Some representative placeholder content for the second slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="D:\Download\Movies PHOTOS\maxresdefault 1.png" class="d-block w-100" alt="..." width="1000" height="700">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Third slide label</h5>
+        <p>Some representative placeholder content for the third slide.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
+<div class="container-fluid w-100 h-100 p-0">
+          <img src="img/02.jpeg" class="w-100">
+        </div><br>
+
+        <div class="container-fluid w-50">
+          <form class="d-flex" action="/Pages/Signup.html">
+              </form>
+        </div>
+        <br> 
+    <div class="text-center text-white">
+      <a href="Pages/Signin.html">
+      <button type="button" class="btn btn-primary btn-lg">Sign In</button></a>
+      &nbsp;&nbsp;
+      <a href="Pages/Signup.html">
+      <button type="button" class="btn btn-primary btn-lg">Sign up</button></a>
+    </div>
+    &nbsp;&nbsp;
+    <!-- Slider -->
+    <!-- Img-1 -->
+<div class="border border-primary rounded-5 m-2">
+  <div class="container-fluid text-white" >
+    <div class="row">
+      <br>
+        <div class="col-md-6">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img class="w-75 rounded-5" src="D:\Unique Image\Final New\by abubakar13 _ 500px.png" alt="Image" width="250" height="300"></div>
+          <div class="card rounded-5 text-white" style="width: 41rem; background-color: #070e1b; ">
+            <div class="card-body">
+              <br><br><br><br>
+              <h1 class="card-title">Watch Everywhere</h1>
+              <h5 class="card-text">Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</h5>
+            </div>
+        </div>
+        <br>
+    </div>
+  </div>  
+</div>
+
+
+<br>
+        <!-- Img-2 -->
+        <div class="border border-primary rounded-5 m-2">
+        <div class="container-fluid  text-white">
+          <div class="row">
+            <div class="card rounded-5 text-white" style="width: 41rem; background-color: #070e1b; ">
+              <div class="card-body">
+                <br><br><br><br>
+                <h1 class="card-title">Download Your Shows To Watch Offline</h1>
+                <h5 class="card-text">Save your favourites easily and always have something to watch.</h5>
+              </div>
+          </div>
+              <div class="col-md-6">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img class="w-75 rounded-5" src="img/03.jpeg"></div>
+              <br>
+          </div>
+        </div>
+      </div>
+    <!-- Img-2 -->
+      <br>
+        <!-- Img-3 -->
+        <div class="border border-primary rounded-5 m-2">
+  <div class="container-fluid text-white">
+    <div class="row">
+        <div class="col-md-6">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img class="w-75 rounded-5" src="img/04.jpeg"></div>
+        <div class="card rounded-5 text-white" style="width: 41rem; background-color: #070e1b; ">
+            <div class="card-body">
+              <br><br><br><br>
+              <h1 class="card-title">Create Profiles For Children</h1>
+              <h5 class="card-text">Send children on adventures with their favourite characters in a space made just for them free with your membership.</h5>
+            </div>
+        </div>
+        <br>
+    </div>
+  </div>
+</div>
+
+    <!-- Img-3 -->
+    <br>
+    <!-- App -->
+
+  <div class="container-fluid">
+    <div class="text-primary text-center">
+      <hr>
+      <h1>MovieZone App</h1>
+    </div><br>
+
+    <div class="container">
+      <div class="row" style="padding-left: 30px;">
+        <div class="col">
+          <img class="d-block w-75 float-left" src="img/05.jpeg">
+        </div>
+        <div class="col">
+        <img class="d-block w-75 float-right" src="img/06.jpeg">
+        </div>
+        <div class="col">
+          <img class="d-block w-75 mx-auto d-block" src="img/07.jpeg">
+        </div>
+      </div>
+    </div>
+    <br>
+    <hr class="text-center text-primary">
+
+<!-- Faq -->
+    <br><br>
+    <div class="text-white text-center" >
+      <h2>Frequently Asked Questions</h2>
+      <br>
+    </div>
+    
+    <div class="accordion" id="accordionExample">
+      <div class="accordion-item border border-primary">
+        <h2 class="accordion-header" id="headingOne">
+          <button class="accordion-button text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" style="background-color: #070e1b;">
+          <h5>What Is The Movie?</h5>
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+          <div class="accordion-body  text-white" style="background-color: #070e1b;">
+            <h7>MovieZone is a streaming service that offers a wide variety of award winning TV shows, movies, anime, documentaries and more on thousands of internet-connected devices.
+            <br>
+            You can watch as much as you want, whenever you want, without a single ad all for one low monthly price. There's always something new to discover, and new TV shows and movies are added every week!
+            </h7>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item border border-primary">
+        <h2 class="accordion-header" id="headingTwo">
+          <button class="accordion-button collapsed text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" style="background-color: #070e1b;">
+            <h5>How Much Does MovieZone Cost?</h5>
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+          <div class="accordion-body  text-white" style="background-color: #070e1b;">
+            <h7>Watch MovieZone on your smartphone, tablet, Smart TV, laptop, or streaming device, all for one fixed monthly fee. Plans range from ₹ 199 to ₹ 599 a month. No extra costs, no contracts.
+            </h7>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item border border-primary">
+        <h2 class="accordion-header" id="headingThree">
+          <button class="accordion-button  text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseOne" style="background-color: #070e1b;">
+           <h5>Where Can I Watch?</h5> 
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+          <div class="accordion-body text-white" style="background-color: #070e1b;">
+            <h7>Watch anywhere, anytime. Sign in with your MovieZone account to watch instantly on the web at MovieZone.com from your personal computer or on any internet-connected device that offers the MovieZone app, including smart TVs, smartphones, tablets, streaming media players and game consoles.
+            </h7>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<footer class="text-center text-white">
+    <div class="container p-4 pb-0">
+      <section class="mb-4">
+        <a
+        class="btn text-white btn-floating m-1"
+        style="background-color: #292828;"
+        href="https://github.com/Dhruv2985"
+        role="button"
+        ><i class="fab fa-github"></i></a>
+        <a
+          class="btn text-white btn-floating m-1"
+          style="background-color: #3b5998;"
+          href="https://www.instagram.com/i_am_programar/"
+          role="button"
+          ><i class="fab fa-facebook-f"></i></a>
+        <a
+          class="btn text-white btn-floating m-1"
+          style="background-color: #d62976;"
+          href="https://www.instagram.com/i_am_programar/"
+          role="button"
+          ><i class="fab fa-instagram"></i></a>
+
+      </section>
+    </div>
+    <div class="bg-primary bg-gradient p-3">
+      © 2022 The Movie | Developed By Dhruv Patel
+    </div>
+  </footer>
+
+
+
+  </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>
